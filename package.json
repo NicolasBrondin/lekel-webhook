@@ -1,0 +1,23 @@
+{
+  "name": "lekel-webhook",
+  "description": "Server side for the lekel application",
+  "version": "0.0.1",
+  "private": true,
+  "main": "app.js",
+  "engines": {
+    "node": "4.x.x"
+  },
+  "scripts": {
+    "prod": "node app.js --config=\"prod\"",
+    "dev": "node app.js --config=\"dev\"",
+    "local": "node app.js --config=\"local\"",
+    "test": "mocha -R spec tests/Tests.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cors": "*",
+    "express": "3.x",
+    "minimist": "1.2.0",
+    
+  }
+}

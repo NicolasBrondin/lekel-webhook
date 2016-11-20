@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html style="font-family: 'Helvetica'; background: #ecf0f1;">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Example</title>
+    </head>
+    <body style="font-family: 'Helvetica'; background-color: red;">
+        <div style="margin:auto; min-width: 50%; box-shadow: 3px 3px 5px -3px #888; background-color: white;">
+            <div style="min-height: 74px; color: white; padding: 1%; background-color:#5AC3C3" >
+                Winesee
+            </div>
+            <div style="min-height: 300px; color: #2c3e50; text-align: center; padding: 2%;" align="center">
+                <h1>Example</h1>
+                <p>Lorem Ipsum acta lupsum</p>
+                <p><a href="{{link}}">{{link}}</a></p>
+                <p><img src="https://peetch.s3.amazonaws.com/resources/open-sign.png" style="width: 25%;"></p>
+                <p>Rejoignez-nous sur les réseaux sociaux!</p>
+                <a href="https://www.facebook.com/winesee"><img src="https://peetch.s3.amazonaws.com/resources/facebook.png" style="margin: 1%;"></a>
+                <a href="http://twitter.com/winesee"><img src="https://peetch.s3.amazonaws.com/resources/twitter.png" style="margin: 1%;"></a>
+            </div>
+            <div style="min-height: 74px; color: white; text-align: center; font-size: 12px; background-color: #red !important; padding: 1%;">
+                <p style="text-align: center;">Ceci est un email automatique, merci de ne pas y répondre</p>
+                <p style="text-align: center;">Si vous rencontrez des problèmes avec la plateforme, contactez-nous ici: <a href="mailto:bn@winesee.fr" style="color:white">bn@winesee.fr</a></p>
+                <p style="text-align: center;">winesee.fr © 2016</p>
+            </div>
+        </div>
+    </body>
+</html>
+
+ 
