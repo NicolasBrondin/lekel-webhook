@@ -1,5 +1,12 @@
 exports.process_request = function(req, res) {
-    console.log(req.body);
-    res.json(200,{});
+    var o = {
+        "fulfillment": {
+            "speech": "Today in Boston: Fair, the temperature is 37 F",
+            "source": "apiai-weather-webhook-sample",
+            "displayText": "Today in Boston: Fair, the temperature is 37 F"
+        }
+    };
+    res.json(200,o);
+    
 };
 
